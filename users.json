@@ -1,0 +1,29 @@
+{
+   "user1" : {
+      "name" : "narayan",
+      "password" : "password1",
+      "profession" : "teacher",
+      "id": 1
+   },
+   
+   "user2" : {
+      "name" : "amit",
+      "password" : "password2",
+      "profession" : "librarian",
+      "id": 2
+   },
+   
+   "user3" : {
+      "name" : "sandip",
+      "password" : "password3",
+      "profession" : "clerk",
+      "id": 3
+   },
+
+   "user4" : {
+      "name" : "pratik",
+      "password" : "password3",
+      "profession" : "clerk",
+      "id": 3
+   }
+}
