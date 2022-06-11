@@ -20,6 +20,9 @@ workflows:
     jobs:
       - build_and_deploy:
         filters:
-          branches:
+          tags:
             only:
-              - master
+              - /v[0-9].*/
+          branches:
+            ignore:
+              - /.*/ #ignoring the trigger for all branches
